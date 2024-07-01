@@ -1,0 +1,637 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive_style.css">
+    
+    <link rel="icon" type="image/x-icon" href="Images/icons/favicon.ico">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="JS/main.js"></script>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Port<span>folio</span></a>
+        <div class="menutoggle" onclick="togglemenu();">
+        </div>
+        <ul class="navigation">
+            <li><a href="#home" style="--i:1;"class="active">Home</a></li>
+            <li><a href="#about" style="--i:2;">About</a></li>
+            <li><a href="#resume"   style="--i:3;">Resume</a></li>
+            <li><a href="#projects"  style="--i:4;">Projects</a></li>
+            <li><a href="#services"  style="--i:5;">Services</a></li>
+            <li><a href="#contactus"  style="--i:6;">Contact</a></li>
+        </ul>
+    </header>
+<!-- Home Section -->
+
+        <div class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                    <h1>Dishant Chauhan</h1>
+                    <h3>And I'm a <span>Web Developer</span></h3>
+                    <div class="social-media">
+                        <a href="" style="--i:7;"><i class='bx bxl-facebook-circle' ></i></a>
+                        <a href="" style="--i:8;"><i class='bx bxl-twitter' ></i></a>
+                        <a href="https://www.instagram.com/dishant938/" style="--i:9;"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/ChauhanDishant" style="--i:10;"><i class='bx bxl-github' ></i></a>
+                    </div>
+                <a href="Document/Personal Resume.pdf" type="Download" class="btn">Download CV</a>   
+            </div>
+            <div class="home-img">
+                <img src="Images/img/Dishant.jpeg" alt="">
+            </div>
+        </div>
+
+            
+<!-- End of Home Section -->
+<!--About Section-->
+
+    <section class="about reveal" id="about">
+        <h2 class="titeText"><span>A</span>bout Me</h2>
+        <div class="row">
+            <div class="col">
+                <h3 class="topic">Hello, my name is Dishant Chauhan. I am a dedicated and enthusiastic individual and I have completed my 10th and 12th grade education at Shree ML Sheth English Medium School. During my time there, I learned the importance of education, hard work, and the friendships of school.
+                </h3> 
+
+                <h3 class="topic">Currently, I am pursuing a Bachelor's degree in Information Technology from Chandubhai S Patel Institute of Technology. Through my duration of studies I have learn't one thing the consistency, if you are consistent in your life then you can achieve anything.
+                </h3>
+                  
+                <h3 class="topic">In my free time, I enjoy playing badminton. I am very fond of movies and webseries specially the story of Military Based Operations.
+                </h3>
+
+                    <p><span class="Que">Name:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ans">Chauhan Dishant Narendrabhai
+                    </span></p>
+
+                    <p><span class="Que">Date of birth:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ans">August 15,2003
+                    </span></p>
+
+                    <p><span class="Que">Address:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ans">Savarkundla,Gujarat</span></p>
+
+                    <p><span class="Que">Zip Code:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ans">364515</span></p>
+
+                    <p><span class="Que">Email:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="ans">dishantchauhan40@gmail.com</span></p>
+
+                    <p><span class="Que">Phone:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ans">7041652332</span> </p>
+
+                <div class="project">
+                    <h2><span id="number">3</span> Projects Completed</h2>
+                </div>
+
+            </div>
+            <div class="col reveal">
+                <div class="imgbx">
+                    <img class="sticky" src="Images/img/Prsnl_image2.jpeg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Resume Section Starts -->
+<section class="resume reveal" id="resume">
+    <h2 class="titeText"><span>R</span>esume</h2>
+    <div class="button-container">
+        <button class="tab-links active-link btn-three" onclick="opentab('education')">Education</button>
+        <button class="tab-links btn-three" onclick="opentab('experience')">Experience</button>
+      </div>
+        <div class="timeline">
+            <div class="tab-contents active-tabs" id="education">
+                <div class="container left">
+                    <div class="content">
+                        <h1>B.Tech in Information Technology</h1>
+                        <h2>(2021-continues)</h2>
+                        <p>Charotar University Of Science and Technology</p>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h1>Higher Secondary Education Science Group</h1>
+                        <h2>(2019-2021)</h2>
+                        <p>Shree M.L Sheth Eng. Med. School</p>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                    <h1>Higher Secondary Education English Medium</h1>
+                    <h2>(2017-2018)</h2>
+                    <p>Shree M.L Sheth Eng. Med. School</p>
+                </div>               
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline">
+        <div class="tab-contents" id="experience">
+            <div class="container left">
+                <div class="content">
+                    <h1>Intern at Miracle Technolabs</h1>
+                    <h2>(2021)</h2>
+                    <p>In Web Development, Jamnagar</p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                <h1>Higher Secondary Education English Medium</h1>
+                <h2>(2018)</h2>
+                <p>Shree M.L Sheth Eng. Med. School</p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+<!-- Skills Section Starts -->
+<section class="skills">
+    <h2 class="titeText reveal"><span>Sk</span>ills</h2>
+    <div class="wrapper reveal">
+        <div class="card Html">
+          <div class="circle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="text">HTML</div>
+        </div> 
+        <div class="card CSS">
+            <div class="circle">
+              <div class="bar"></div>
+              <div class="box"><span></span></div>
+            </div>
+            <div class="text">CSS</div>
+          </div>
+        <div class="card js">
+          <div class="circle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="text">JavaScript</div>
+        </div>
+        <div class="card bootstrap">
+          <div class="circle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="text">Bootstrap</div>
+        </div>
+        <div class="card python">
+          <div class="circle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+          </div>
+          <div class="text">Python</div>
+        </div>
+        <div class="card Django">
+            <div class="circle">
+              <div class="bar"></div>
+              <div class="box"><span></span></div>
+            </div>
+            <div class="text">Django</div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+    
+<script>
+  function circleProgress(element, options, color, value) {
+  let progressOptions = Object.assign({}, options);
+  progressOptions.fill = {
+    gradient: [color, color]
+  };
+  
+  $(element).circleProgress(progressOptions).on('circle-animation-progress', function(event, progress, stepValue) {
+    $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
+  }).circleProgress('value', value); // Set the value using 'circleProgress' method
+}
+
+let options = {
+  startAngle: -1.55,
+  value: 0.85,
+  size: 150,
+  fill: {
+    gradient: ['#000428', '#004e92']
+  }
+};
+
+circleProgress('.circle .bar', options, '#ff0000', 0.70); // Pass the color and value as additional arguments
+
+circleProgress('.js .bar', options, '#00ff00', 0.60);
+circleProgress('.bootstrap .bar', options, '#0ef', 0.90);
+circleProgress('.html .bar', options, '#ff00ff', 0.80);
+circleProgress('.css .bar', options, '#ffff00', 0.85);
+circleProgress('.Django .bar', options, '#ff0157', 0.78);
+circleProgress('.python .bar', options, '#a9de16', 0.87);
+// circleProgress('.python .bar', options, '#0ef', 0.86);
+</script>
+<!-- Skills Section Ends -->
+
+<script>
+    function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  window.addEventListener("scroll", reveal);
+    </script>
+
+<!-- Projects Section Started -->
+<section class="projects reveal" id="projects">
+  <h2 class="titeText"><span>P</span>rojects</h2>
+  <ul>
+    <li class="list" data-filter="All">All</li>
+    <li class="list" data-filter="Web">Web Development</li>
+    <li class="list" data-filter="Python">Python</li>
+    <li class="list" data-filter="Django">Django</li>
+    <li class="list" data-filter="AWS">AWS</li>
+  </ul>
+<!-- The Modal -->
+  <div class="product reveal">
+    <div class="itemBox Web">
+      <div class="image-container">
+        <img src="Images/icons/Dalle1.png" alt="">
+        <div class="overlay">
+          <div class="description">
+            <div class="button">
+              <div class="text">
+                <h2>Telegram Chatbot</h2>
+              </div>          
+              <button class="btn-icon" onclick="openModal('description1')">Read More</button>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div id="description1" style="display: none;">
+        <div class="heading">
+          <h2>Telegram Chatbot Project</h2>
+        </div>
+        <div class="details">
+        <p>
+          The Telegram Chatbot Project is a project aimed at creating a chatbot for the Telegram messaging platform. The chatbot is designed to provide automated responses and perform various tasks based on user interactions.
+        </p>
+     
+        <h3>The features of Telegram Chatbot includes:</h3>
+
+        <p>Interactive conversation with users, Ability to answer frequently asked questions, Integration with external APIs for fetching data, Support for commands and user prompts and Mutli-language support.</p>
+
+        <p>
+          The chatbot is built using technologies such as Python, the Telegram Bot API, and natural language processing (NLP) libraries. It utilizes machine learning techniques to improve its responses over time.
+        </p>
+        <p>
+          Overall, the Telegram Chatbot Project aims to provide a seamless and interactive experience for users on the Telegram platform, offering them quick and helpful information or services through the chatbot.
+        </p>
+        <!-- Link SVG Code -->
+        <a href="https://telegram.org/">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill: rgba(0, 0, 136, 1);"><path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"></path></svg></a>
+      </div>
+      </div>
+    </div>
+    
+    <div class="itemBox Web">
+      <div class="image-container">
+        <img src="Images/icons/Dalle.png" alt="">
+        <div class="overlay">
+          <div class="description">
+            <div class="text">
+              <h2>Employee Management</h2>
+            </div>
+            <div class="button">
+              <button class="btn-icon" onclick="openModal('description2')">Read More</button>
+            </div>             
+          </div>
+        </div>
+      </div>
+      <div id="description2" style="display: none;">
+        <div class="heading">
+          <h2>Employee Management System</h2>
+        </div>
+        <div class="details">
+          <p>
+            The Employee Management System is a web-based application designed to streamline HR processes and efficiently manage employee data.
+          </p>
+          <h3>
+            Key features of the system include:
+          </h3>
+          
+          <p>The Features are Employee Record Management System,Attendance Tracking and Leave Management, Peformance Evaluation and Feedback,Payroll and benefits administration,Task Assignment and</p>
+
+        </div>
+        <!-- Link HTML Code -->
+        <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAAXNSR0IArs4c6QAABMZJREFUaEPtmGuIVVUUx3//MzU2vtIiJKIklWoK+2AYTA+JNFFwSqV77/hEMHuaUZSF9cEPRZREaakkVpbN486tLB+IpAX2kNJe9GHCJE3rS0mR1oxls1ecO1fn3Dv3nnOuMyMYcz7uvdbav/Pfa629zxFn4KMzkJk+6NO1a31K/++UNvz6SVSDxoIGgXZD+1ci80+5L9vr6WHUXYzcctBEYEAB4L/AHkyLRdNHceF7DbpD2dQ9iGeAgRFAhliJc4tFpi0KvlegjUQV0jugSVEABfN7scoxYv1fYX69A+0ll2NaVLDwEcS7ONsF/IrHOEy3AcPz7MTLcum7Tz80iXORtxO4Orf4Tqxirmj4MQhj1PbH678M4948SPPGi8YPSoH3itL+YkbiPOR9jLQL13SH/KESj3nJZZgeDkxvl6VvOe3QJ8BF5reovDYm90ODvwEuz9m2YW6QyLQX8+01paNAC+fNSz2J8fjJceMakf6yV6HNz2O8y8D5lb+v3EPDSE5F2tAJrYWiaWWPQxuJUXjefRi1wMjAAg7YhdkGOLZGbDwapbyRXIC0JgA9SzQ19Bi0kajA81Zh3BkFAxzBNF80vRVma17dasw6W51xpUi39Ai0Me8c1LoRVLK6i8KZLRHNTxebM2ZfiI5/BwzuLMTqgWKpv2NdnrIKMXfSbQbdXBCpHVEP2p8dNyaC1XRZzexR0fxscNxY6qGWbcCEk+OyFXLND3S75eUU3lIEeBPmForMwXyYGZOQWwtclBs/jHk3ikZf0dy7LfXwWt7AmBXwPYy1jQirg1hKdwC3bQbG57299GrYwWHMGIbcduASzN0gMt9GAPu7NFuk68PyPxI6e1tTcluXHBav4dLzgyedkRoDZ+0T9Uc64WYOhePDRebrAuB1GHPy4WyLrHlKVHHHgE49hHguX2HqcdVzg4ViJEbn7huHsMoJYv0vxYsumxKvYMwrmN+BVU0R6451C9qYcQVy/vFa2VkkxYBT1YhPgKE5u4OYzRPNH+bneeJS5PkHxuRTBfb9Siqdq+rdwJjAAlux6imFrcioW4LsqSIKHUJ8mr2KGuMCt76g6Q7M1ca5/J9wCoFOjUV8nl/VXrVoPFx820uCh+32NqxqapyUCAYJg56OeDuQFi/IpR8MIzCSs5FWx/i88vd4Fc4tKnWTO6XuYdQtQrb8pHNHjr4eVSQdFyfdhTQduLYgBfchNuMqXhQNP0TFKjUfpnR+1zBqRdrv1bGfbH/n75Hg+oPbKzJ/xHYOMQyBTk5Aer9TaZ4Q6WLF1hMcZcUIgZ52PqoMFt1+zF0VVeUdvw5mDhENv5dFUoZx6OFiSv0UuDv4OKHFmAX26tZiVoO5mp5Kh8L3CYcmdT9iRcAp91Ol6pHCNtXxJ8kagetz9l9g7iaR+bMMEWOZRh/jSr4HurUg2gFkG3DZU/ACPF2HMa1Lq4vYmViERYyioZk6BPXbU/A5FWe9rVjr7WJTaxzjcmwiof1gxpwBeMefx2xBjOCtGI9B+qWwfx0x4pQ0iQV9wtvItsE3gWElIn6GqU40HegOVJRvWdAdqicq4OwR0D4KbDToKKgF2r8XmZ+jFuyJ+bKhe2LR7sbog+6ugnH9+5SOq1R37c5Ipf8DmW2hPUqvUPAAAAAASUVORK5CYII="/></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="itemBox Django">
+      <div class="image-container">
+        <img src="Images/img/camera3.jpg" alt="">
+        <div class="overlay">
+          <div class="description">
+            <div class="button">
+              <button class="btn-icon" onclick="openModal('description3')">Read More</button>
+            </div>            
+          </div>
+        </div>
+      </div>
+      <div id="description3" style="display: none;">
+        <h2>Title 3</h2>
+        <p>This is the description for item 3.</p>
+      </div>
+    </div>
+    
+    <div class="itemBox Python">
+      <div class="image-container">
+        <img src="Images/img/headphone1.jpg" alt="">
+        <div class="overlay">
+          <div class="description">
+            <div class="button">
+              <button class="btn-icon" onclick="openModal('description4')">Read More</button>
+            </div>             
+          </div>
+        </div>
+      </div>
+      <div id="description4" style="display: none;">
+        <h2>Title 4</h2>
+        <p>This is the description for item 4.</p>
+      </div>
+    </div>
+    
+    <div class="itemBox Django">
+      <div class="image-container">
+        <img src="Images/img/headphone2.jpg" alt="">
+        <div class="overlay">
+          <div class="description">
+            <div class="button">
+              <button class="btn-icon" onclick="openModal('description5')">Read More</button>
+            </div>           
+          </div>
+        </div>
+      </div>
+      <div id="description5" style="display: none;">
+        <h2>Title 5</h2>
+        <p>This is the description for item 5.</p>
+      </div>
+    </div>
+    
+    <div class="itemBox AWS">
+      <div class="image-container">
+        <img src="Images/img/headphone3.jpg" alt="">
+        <div class="overlay">
+          <div class="description">
+            <div class="button">
+              <button class="btn-icon" onclick="openModal('description6')">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="description6" style="display: none;">
+        <h2>Title 6</h2>
+        <p>This is the description for item 6.</p>
+      </div>
+    </div>
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modalText"></div>
+      </div>
+    </div>    
+</section>
+
+<!-- Javascript For the Modal -->
+<script>
+function openModal(descriptionId) {
+  var description = document.getElementById(descriptionId);
+  var modalText = document.getElementById("modalText");
+  modalText.innerHTML = description.innerHTML;
+  var modal = document.getElementById("myModal");
+  modal.style.display = "block";
+}
+
+window.onclick = function(event) {
+  var modal = document.getElementById("myModal");
+  var closeBtn = document.getElementsByClassName("close")[0];
+  if (event.target == modal || event.target == closeBtn) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<!-- Javascript for the Reveal Function -->
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous">
+</script>  
+
+<script>
+      $(document).ready(function(){
+        $('.list').click(function(){
+          const value = $(this).attr('data-filter');
+          if(value == 'All'){
+            $('.itemBox').show('1000');
+          }
+          else{
+            $('.itemBox').not('.'+value).hide('1000');
+            $('.itemBox').filter('.'+value).show('1000');
+          }
+
+        // add active class on selected item
+
+        $('.list').click(function(){
+          $(this).addClass('active').siblings().removeClass('active');
+        })
+      })
+    }) 
+</script>
+<!-- Services Section Started -->
+<section class="services reveal" id="services">
+  <h2 class="titeText"><span>S</span>ervices</h2> 
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <div class="icon-wrapper">
+            <i class="bx bxl-html5"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>
+            Web Development (Frontend) involves creating the visual and interactive elements of a website that users see and interact with. It focuses on designing and implementing the user interface (UI) and user experience (UX) components of a website using various technologies such as HTML, CSS, and JavaScript.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="icon-wrapper">
+            <i class="bx bx-brain"></i>
+          </div>
+          <h3>Artificial Intelligence and Machine Learning</h3>
+          <p>
+            My AI/ML service leverages cutting-edge technologies to help businesses unlock the power of artificial intelligence and machine learning. We develop intelligent algorithms and models that analyze vast amounts of data to gain valuable insights, automate processes, and make data-driven predictions.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="icon-wrapper">
+            <i class="bx bxl-aws"></i>
+          </div>
+          <h3>AWS</h3>
+          <p>
+            Our AWS service harnesses the power of Amazon Web Services to provide scalable and reliable cloud-based solutions. With AWS, we enable businesses to leverage cloud computing resources such as storage, computing power, and databases. 
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="icon-wrapper">
+            <i class="bx bxl-python"></i>
+          </div>
+          <h3>Python</h3>
+          <p>
+            Python is a popular programming language widely used for various applications, including web development, data analysis, machine learning, and scripting. It is known for its simplicity, readability, and versatility. Python offers a rich set of libraries and frameworks that enable developers to build robust and scalable applications efficiently. 
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="icon-wrapper">
+            <i class="bx bxl-django"></i>
+          </div>
+          <h3>Django</h3>
+          <p>
+            Django is a powerful web framework for building secure and scalable web applications. Our Django service offers end-to-end development solutions, from designing elegant user interfaces to implementing complex backend functionalities. We follow best practices to ensure clean and maintainable code, seamless database integration, and efficient deployment.
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="icon-wrapper">
+            <i class="bx bxl-java"></i>
+          </div>
+          <h3>Java</h3>
+          <p>
+            Our Java service caters to the development needs of enterprise-level applications. Java is a robust and platform-independent programming language widely used for building scalable and secure software solutions. Our Java experts utilize their in-depth knowledge to develop high-performance applications, enterprise systems, and backend services. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Section Started -->
+<section class="contact reveal" id="contactus">
+  <h2 class="titeText"><span>C</span>ontact <span>M</span>e</h2> 
+  <div class="contain">
+    <div class="wrappers">
+      <div class="form">
+        <h1>Send me a Message</h1>
+        <form id="submit-form" action="">
+          <p>
+            <input id="name" class="form-input" type="text" placeholder="Your Name*">
+            <small class="name-error"></small>
+          </p>
+          <p>
+            <input id="email" class="form-input" type="email" placeholder="Your Email*">
+            <small class="name-error"></small>
+          </p>
+          <p class="full-width">
+            <input id="company-name" class="form-input" type="text" placeholder="Company Name*" required>
+            <small></small>
+          </p>
+          <p class="full-width">
+            <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+            <small></small>
+          </p>
+          <p class="full-width">
+            <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
+          </p>
+          <p class="full-width">
+            <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+            <button class="reset-btn" onclick="reset()">Reset</button>
+          </p>
+        </form>
+      </div>
+      <div class="contact-wrapper">
+            <img src="Images/logo/logo.png" alt="">
+            <h2 class="email-info"><i class="bx bx-envelope bx-sm"></i>
+            dishantchauhan40@gmail.com</h2>
+            <div><i class="bx bx-phone bx-sm"></i>&nbsp;&nbsp;&nbsp;<span class="highlight-text">+91 7041652332</span></div>
+          </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top: 20px;">
+<!-- Footer Section -->
+<footer>
+  <p>© and all rights are reserved by Dishant Chauhan</p>
+</footer>
+</section>
+
+
+<!-- Contact Form Validation -->
+<script>
+  const nameEl = document.querySelector("#name");
+const emailEl = document.querySelector("#email");
+const companyNameEl = document.querySelector("#company-name");
+const messageEl = document.querySelector("#message");
+
+const form = document.querySelector("#submit-form");
+
+function checkValidations() {
+  let letters = /^[a-zA-Z\s]*$/;
+  const name = nameEl.value.trim();
+  const email = emailEl.value.trim();
+  const companyName = companyNameEl.value.trim();
+  const message = messageEl.value.trim();
+  if (name === "") {
+     document.querySelector(".name-error").classList.add("error");
+      document.querySelector(".name-error").innerText =
+        "Please fill out this field!";
+  } else {
+    if (!letters.test(name)) {
+      document.querySelector(".name-error").classList.add("error");
+      document.querySelector(".name-error").innerText =
+        "Please enter only characters!";
+    } else {
+      
+    }
+  }
+  if (email === "") {
+     document.querySelector(".name-error").classList.add("error");
+      document.querySelector(".name-error").innerText =
+        "Please fill out this field!";
+  } else {
+    if (!letters.test(name)) {
+      document.querySelector(".name-error").classList.add("error");
+      document.querySelector(".name-error").innerText =
+        "Please enter only characters!";
+    } else {
+      
+    }
+  }
+}
+function reset() {
+  nameEl = "";
+  emailEl = "";
+  companyNameEl = "";
+  messageEl = "";
+  document.querySelector(".name-error").innerText = "";
+}
+</script>
